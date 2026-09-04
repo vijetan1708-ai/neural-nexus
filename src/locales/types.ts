@@ -1,0 +1,136 @@
+export interface TranslationKeys {
+  appName: string;
+  tagline: string;
+  sihTitle: string;
+  nav: {
+    dashboard: string;
+    weathergpt: string;
+    forecast: string;
+    alerts: string;
+    map: string;
+    history: string;
+    agriculture: string;
+    travel: string;
+    emergency: string;
+    analytics: string;
+    profile: string;
+    settings: string;
+  };
+  sources: {
+    officialIMD: string;
+    weatherAPI: string;
+    aiAnalysis: string;
+    aiPrediction: string;
+    historicalData: string;
+    demoData: string;
+  };
+  riskLevels: {
+    low: string;
+    moderate: string;
+    high: string;
+    extreme: string;
+    confidenceHigh: string;
+    confidenceMed: string;
+    confidenceLow: string;
+  };
+  dashboard: {
+    greetingMorning: string;
+    greetingAfternoon: string;
+    greetingEvening: string;
+    greetingNight: string;
+    weatherIn: string;
+    feelsLike: string;
+    humidity: string;
+    windSpeed: string;
+    pressure: string;
+    visibility: string;
+    uvIndex: string;
+    cloudCover: string;
+    rainProbability: string;
+    sunrise: string;
+    sunset: string;
+    riskScore: string;
+    riskFactorsTitle: string;
+    outdoorScoreTitle: string;
+    hourlyForecastTitle: string;
+    sevenDayForecastTitle: string;
+    activeAlertsTitle: string;
+    noActiveAlerts: string;
+    viewForecast: string;
+    askWeatherGPT: string;
+    emergencyGuidance: string;
+    useMyLocation: string;
+    searchPlaceholder: string;
+  };
+  emergency: {
+    title: string;
+    sosHeader: string;
+    subtitle: string;
+    callEmergencyServices: string;
+    shareLocation: string;
+    locationSharedCopied: string;
+    helplinesTitle: string;
+    preparednessChecklists: string;
+    sheltersTitle: string;
+    ndrfHelpline: string;
+    police: string;
+    ambulance: string;
+    fireService: string;
+    stateDisasterHelpline: string;
+  };
+  agriculture: {
+    title: string;
+    subtitle: string;
+    soilMoisture: string;
+    irrigationAdvice: string;
+    spraySuitability: string;
+    cropAdvisory: string;
+    delayIrrigation: string;
+    favorableSpraying: string;
+    unfavorableSpraying: string;
+  };
+  travel: {
+    title: string;
+    subtitle: string;
+    origin: string;
+    destination: string;
+    departureTime: string;
+    travelRisk: string;
+    recommendedGear: string;
+    umbrellaRequired: string;
+    safeTravelConditions: string;
+    cautionAdvised: string;
+  };
+  weathergpt: {
+    assistantTitle: string;
+    assistantTagline: string;
+    quickPromptsTitle: string;
+    askPlaceholder: string;
+    sendButton: string;
+    voiceButton: string;
+    summary: string;
+    confidence: string;
+    risk: string;
+    recommendation: string;
+    location: string;
+    validTime: string;
+    source: string;
+    listening: string;
+    speechNotSupported: string;
+  };
+  demoMode: {
+    bannerWarning: string;
+    switchScenario: string;
+    normal: string;
+    heavyRain: string;
+    flood: string;
+    cyclone: string;
+    heatwave: string;
+    thunderstorm: string;
+    simulatedExplanation: string;
+  };
+  offline: {
+    banner: string;
+    cachedTime: string;
+  };
+}
